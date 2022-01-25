@@ -43,7 +43,7 @@ We'll install the StimulusReflex gem and client library before enabling caching 
 
 ```ruby
 bundle add stimulus_reflex --version 3.5.0.pre8
-yarn add stimulus_reflex@3.5.0.pre8
+yarn add stimulus_reflex@3.5.0-pre8
 rails dev:cache # caching needs to be enabled
 rake webpacker:install:stimulus
 rails generate stimulus_reflex:initializer
